@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Ensuring the website can be work on mobile devices, or other devices with different physical sizes-->
+        <title>
+            CTU Comics
+        </title>
+        <link href='styles.css' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Get a star icon-->
+        <script type='text/javascript' src='jquery.js'></script>
+        <script type='text/javascript' src='comic_favourite_list.js'></script>
+        <!--Referencing content or resources that will be used within the website and webpages-->
+    </head>
+    <body>
+        <div id='mainContent'>
+            <!-- Main box for entire body-->
+            <div id='mainHeader'>
+                CAMA COMICS
+                <div class='headerSocial' style="display: inline-block">
+                    <a href='https://facebook.com'><img id = 'facebook' src="Resources/Logos/facebookicon.PNG" alt="Facebook"></a></div>
+                <div class='headerSocial' style="display: inline-block">
+                    <a href='https://instagram.com'><img id = 'instagram' src="Resources/Logos/instaicon.PNG" alt="Instagram"></a></div>
+                <div class='headerSocial' style="display: inline-block">
+                    <a href='https://twitter.com'><img id = 'twitter' src="Resources/Logos/twitterlogo.PNG" alt="Twitter"></a>
+                </div>
+                
+            </div>
+            <nav id='mainNav'>
+                <ul id='navigation'>
+                <!--Here the user will be able to navigate across the website-->
+                    <li class='navLogo'><a href='home.html'><img src="Resources/Logos/home.PNG"></a></li>
+                    <li class='navLogo'><a href='list.html'><img src="Resources/Logos/list.PNG"></a></li>
+                    <li class='navLogo'><a href='contact.html'><img src='Resources/Logos/contact_location.PNG'></a><br></li>
+                    <li class='navLogo'><a href='gallery.html'><img src="Resources/Logos/gallery.PNG"></a></li>
+                </ul>
+            </nav>
+
+
+                <b><h1>Popular Titles</h1></b><br>
+                <button id='backTop' onclick="toTop()">TOP</button>
+                <div class='comicBooks'>
+                    <!--This division will contain a group of all comics-->
+                    <a href="gallery.html#batman"><img src='Resources/ComicCovers/batman.jpg' name='Batman'/></a>
+                    <a href="gallery.html#superman"><img src='Resources/ComicCovers/superman.jpg' name='Superman'/></a>
+                    <a href="gallery.html#captainAmerica"><img src="Resources/ComicCovers/captain_america.jpg" name='Captain America'></a>
+                    <a href="gallery.html#x-men"><img src="Resources/ComicCovers/x-men_gifted.jpg" name='X-Men'></a>
+                    <a href="gallery.html#daredevil"><img src='Resources/ComicCovers/daredevil.jpg' name='Daredevil'></a>
+                    <a href="gallery.html#spiderman"><img src="Resources/ComicCovers/ultimate_spiderman.jpg" name='SpiderMan'></a>
+                    <a href="gallery.html#greenLantern"><img src='Resources/ComicCovers/green_lantern.jpg' name='Green lantern'></a>
+                    <a href="gallery.html#kickass"><img src='Resources/ComicCovers/kickass.jpg' name='KickAss'></a>
+                    <a href="gallery.html#100bullets"><img src='Resources/ComicCovers/100bullets.jpg' name='100 Bullets'></a>
+                    <a href="gallery.html#msMarvel"><img src='Resources/ComicCovers/miss_marvel.jpg' name='Ms Marvel'></a>
+                    <a href="gallery.html#hellboy"><img src='Resources/ComicCovers/hellboy.jpg' name='Hellboy'></a>
+                    <a href="gallery.html#saga"><img src='Resources/ComicCovers/saga.jpg' name='Saga'></a>
+                    <img src="Resources/ComicCovers/strangers_in_paradise.jpg" name='Strangers in Paradise'>
+                    <img src="Resources/ComicCovers/battleworld.jpg" name='Battleworld'>
+                    <img src="Resources/ComicCovers/absolute_transmetropolitan.jpg" name='Absolute Transmetropolitan'>
+                    <img src="Resources/ComicCovers/planetary.jpg" name='Planetary'>
+                    <img src="Resources/ComicCovers/preacher.jpg" name='Preacher'>
+                    <img src="Resources/ComicCovers/the_authority.jpg" name='The Authority'>
+                    <img src="Resources/ComicCovers/the_walking_dead.jpg" name='The Walking Dead'>
+                    <img src="Resources/ComicCovers/the_punisher.jpg" name="the Punisher">
+                    <img src="Resources/ComicCovers/wanted.jpg" name='Wanted'>
+                    <img src="Resources/ComicCovers/the_last_man.jpg" name='The Last Man'>
+                    <img src="Resources/ComicCovers/starman.jpg" name='Starman'>
+                    <img src="Resources/ComicCovers/promethea.jpg" name='Promethea'>     
+                    <img src='Resources/ComicCovers/fables.jpg' name='Fables'>
+                </div>
+            <footer><br><br><hr>
+                <b>Copyright. Created and maintained by Leonard Botha, 2019.</b><hr></footer>
+        </div>
+    </body>
+</html>

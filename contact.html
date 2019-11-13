@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content="width=device-width; initial-scale = 1.0;">
+        <title>
+            CTU Comics
+        </title>
+        <link href='styles.css' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Get a star icon-->
+        <script type='text/javascript' src='jquery.js'></script>
+        <script type='text/javascript' src='comic_favourite_list.js'></script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3P5xNDiEfGE3vao8OubaLc7AQDuW39PU&callback=initMap">
+        </script>
+        
+    </head>
+    <body>
+        <div id='mainContent'>
+        <div id='mainHeader'>
+            CAMA COMICS
+            <div class='headerSocial' style="display: inline-block">
+                <a href='https://facebook.com'><img id = 'facebook' src="Resources/Logos/facebookicon.PNG" alt="Facebook"></a></div>
+            <div class='headerSocial' style="display: inline-block">
+                <a href='https://instagram.com'><img id = 'instagram' src="Resources/Logos/instaicon.PNG" alt="Instagram"></a></div>
+            <div class='headerSocial' style="display: inline-block">
+                <a href='https://twitter.com'><img id = 'twitter' src="Resources/Logos/twitterlogo.PNG" alt="Twitter"></a>
+            </div>
+        </div>
+        <nav id='mainNav'>
+            <ul id='navigation'>
+                <li class='navLogo'><a href='home.html'><img src="Resources/Logos/home.PNG"></a></li>
+                <li class='navLogo'><a href='list.html'><img src="Resources/Logos/list.PNG"></a></li>
+                <li class='navLogo'><a href='contact.html'><img src='Resources/Logos/contact_location.PNG'></a></li>
+                <li class='navLogo'><a href='gallery.html'><img src="Resources/Logos/gallery.PNG"></a></li>
+            </ul>
+        </nav>
+        
+        
+            <div id='formContent' style = 'float: left; margin-top: 30px; background-color: rgba(60%,40%,10%,0.8);'>
+                <h1 style='font-size: 45px;'>Customer Contact</h1>
+            <input class = 'getContact' type='text' value="Name">
+            <input class = 'getContact' type='email' value="Email">
+            <input class = 'getContact' type='textbox' value='Message'>
+            <input class = 'getContact' type='submit' value='Contact Me'>
+            </div><br>
+            <div id='map'>
+
+            </div>
+            <footer><br><br>
+            <hr>
+            <h3>Copyright. Created and maintained by Leonard Botha, 2019</h3><hr>
+        </footer>
+        </div>
+        
+    </body>
+</html>
